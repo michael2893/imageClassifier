@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 
 
 import pathlib
-data_dir = '/Users/michael/Downloads/set/actual'
+data_dir = '/set/actual'
 data_dir = pathlib.Path(data_dir)
 
 
@@ -139,7 +139,7 @@ plt.show()
 
 
 
-path = ('/Users/michael/Downloads/IMG_7915.jpg');
+path = (''); ### test image
 
 img = keras.preprocessing.image.load_img(
     path, target_size=(img_height, img_width)
