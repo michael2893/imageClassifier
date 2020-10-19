@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 
 
 import pathlib
-data_dir = '/set/actual'
+data_dir = '/Users/michael/Downloads/set/actual'
 data_dir = pathlib.Path(data_dir)
 
 
@@ -80,6 +80,7 @@ data_augmentation = keras.Sequential(
   ]
 )
 
+num_classes = 5
 
 model = Sequential([
   data_augmentation,
